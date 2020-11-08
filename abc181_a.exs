@@ -9,7 +9,8 @@ defmodule Main do
   end
 
   def solve(n) do
-    case rem(n, 2) do
+    m = Integer.digits(n, 2) |> List.last
+    cond do
       0 -> "White"
       1 -> "Black"
     end
@@ -21,3 +22,7 @@ defmodule Main do
     |> IO.puts()
   end
 end
+
+# 2進数に変換して、最後のビットが0or1で判断するってもあるかも
+# Integer.digits(5, 2) |> List.last
+# Integer.digits(5, 2) |> Enum.take(-1) |> List.first
