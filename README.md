@@ -85,3 +85,7 @@ atcoderの問題をElixirで解く
 | [Beginner Contest 182](https://atcoder.jp/contests/abc184) | 2020/11/22 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [Regular Contest 109](https://atcoder.jp/contests/arc109) | 2020/11/28 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | [AtCoder Grand Contest 050](https://atcoder.jp/contests/agc050) | 2020/12/05 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+
+## 備忘録
+
+- [ ] 本当はExUnitを作って実行してみたいが、検証できてない
