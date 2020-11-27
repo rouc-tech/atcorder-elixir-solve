@@ -1,3 +1,3 @@
-[](./background.png)
+![](./background.png)
 
 # atcorder-elixir-solve
