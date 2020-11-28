@@ -16,7 +16,8 @@ atcoderの問題をElixirで解く
 
     `defmodule Main/def main`を用意するとAtCoderへ提出したときにこれを読み込んでくれるようです。
 
-    ```elixir abc181_a.exs
+    ```elixir
+    # abc181_a.exs
     defmodule Main do
       def input do
         IO.read(:line)
@@ -53,7 +54,8 @@ atcoderの問題をElixirで解く
 
     `defmodule Main do 〜 end`の部分だけコピーして、貼り付けて提出します。(この辺のルールはよくわからない)
 
-    ```elixir abc181_a.exs
+    ```elixir
+    # abc181_a.exs
     # ↓↓↓↓↓↓↓↓↓↓↓ ここから　↓↓↓↓↓↓↓↓↓↓↓
     defmodule Main do
       def input do
