@@ -14,7 +14,7 @@ atcoderの問題をElixirで解く
 
 1. 以下のようにコードを書きます
 
-    Main.main()を用意するとAtCoderへ提出したときにこれを読み込んでくれるようです。
+    `defmodule Main/def main`を用意するとAtCoderへ提出したときにこれを読み込んでくれるようです。
 
     ```elixir
     defmodule Main do
@@ -46,13 +46,15 @@ atcoderの問題をElixirで解く
 
     ```zsh
     echo "1243" | elixir abc181_a.exs
+    # Black
     ```
 
 1. AtCoderへ提出
 
-    `Main.main()`を削除して、貼り付けて提出します。(この辺のルールはよくわからない)
+    `defmodule Main do 〜 end`の部分だけコピーして、貼り付けて提出します。(この辺のルールはよくわからない)
 
     ```elixir
+    # ↓↓↓↓↓↓↓↓↓↓↓ ここから　↓↓↓↓↓↓↓↓↓↓↓
     defmodule Main do
       def input do
         IO.read(:line)
@@ -73,6 +75,9 @@ atcoderの問題をElixirで解く
           |> IO.puts()
       end
     end
+    # ↑↑↑↑↑↑↑↑↑↑↑　ここまでをコピー ↑↑↑↑↑↑↑↑↑↑↑
+
+    Main.main()
     ```
 
 ## ステータス
